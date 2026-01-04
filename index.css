@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-image: url(img/sekil1.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.text{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.text h1{
+    color: #f1ae0e;
+    font-family: Montserrat, sans-serif;
+    font-size: 80px;
+}
+.text p{
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        line-height: 1.5;
+        word-spacing: 5px;
+}
+.button{
+    padding: 15px;
+    width: 180px;
+    border-radius: 40px;
+    background-color: #f1ae0e;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
