@@ -132,7 +132,7 @@
     .box{
     height: 380px;
     width: 330px;
-    padding: 30px;
+    padding: 20px;
     color: white;
     background-image: url(img/sekil2.jpg);
     background-size: cover;
@@ -140,7 +140,7 @@
 .box2{
     height: 380px;
     width: 330px;
-    padding: 30px;
+    padding: 20px;
     color: white;
     background-color: #f1ae0e;
 }
