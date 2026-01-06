@@ -1,36 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.section1{
+
+.section1 {
     background-image: url(img/sekil1.jpg);
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
-    
+
     display: flex;
     align-items: center;
     padding: 50px;
 }
-.text{
+
+.text {
     width: 400px;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-.text h1{
+
+.text h1 {
     color: #f1ae0e;
     font-family: Montserrat, sans-serif;
     font-size: 80px;
 }
-.text p{
-        font-family: 'Open Sans', sans-serif;
-        color: white;
-        line-height: 1.5;
-        word-spacing: 5px;
+
+.text p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    line-height: 1.5;
+    word-spacing: 5px;
 }
-.button{
+
+.button {
     padding: 15px;
     width: 180px;
     border-radius: 40px;
@@ -39,4 +44,114 @@
     font-weight: bolder;
     letter-spacing: 3px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ad7b07;
+}
+
+.section2{
+    background-color: #1a1a1a;
+}
+.box{
+    height: 420px;
+    width: 330px;
+    padding: 30px;
+    color: white;
+    background-image: url(img/sekil2.jpg);
+    background-size: cover;
+}
+.box h5{
+    font-size: 25px;
+}
+.iconBox{
+    height: 100px;
+    width: 100px;
+    background-color: #f1ae0e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+
+}
+.iconBox svg{
+    height: 50px;
+    width: 50px;
+}
+.box ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+.iconBox2{
+    background-color: #1a1a1a;
+}
+.iconBox2 svg{
+    color: #f1ae0e;
+}
+.box2{
+    height: 420px;
+    width: 330px;
+    padding: 30px;
+    color: white;
+    background-color: #f1ae0e;
+}
+.box2 ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+.box2 h5{
+    font-size: 25px;
+}
+.containerBox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.text{
+    color: white;
+    width: 700px;
+    padding: 30px;
+    font-family: Montserrat, sans-serif
+}
+.text h2{
+    font-size: 40px;
+}
+
+@media(max-width:1030px){
+    .containerBox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+    height: 350px;
+    width: 330px;
+    padding: 30px;
+    color: white;
+    background-image: url(img/sekil2.jpg);
+    background-size: cover;
+}
+.box2{
+    height: 350px;
+    width: 330px;
+    padding: 30px;
+    color: white;
+    background-color: #f1ae0e;
+}
+.text{
+    color: white;
+    width: 400px;
+    padding: 10px;
+    font-family: Montserrat, sans-serif;
+    
+}
+.text h2{
+    font-size: 30px;
+}
 }
