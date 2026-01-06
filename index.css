@@ -51,10 +51,11 @@
     background-color: #ad7b07;
 }
 
-.section2{
+.section2 {
     background-color: #1a1a1a;
 }
-.box{
+
+.box {
     height: 420px;
     width: 330px;
     padding: 30px;
@@ -62,10 +63,12 @@
     background-image: url(img/sekil2.jpg);
     background-size: cover;
 }
-.box h5{
+
+.box h5 {
     font-size: 25px;
 }
-.iconBox{
+
+.iconBox {
     height: 100px;
     width: 100px;
     background-color: #f1ae0e;
@@ -75,95 +78,150 @@
     border-radius: 100%;
 
 }
-.iconBox svg{
+
+.iconBox svg {
     height: 50px;
     width: 50px;
 }
-.box ul{
+
+.box ul {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-size: 20px;
 }
-.iconBox2{
+
+.iconBox2 {
     background-color: #1a1a1a;
 }
-.iconBox2 svg{
+
+.iconBox2 svg {
     color: #f1ae0e;
 }
-.box2{
+
+.box2 {
     height: 420px;
     width: 330px;
     padding: 30px;
     color: white;
     background-color: #f1ae0e;
 }
-.box2 ul{
+
+.box2 ul {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-size: 20px;
 }
-.box2 h5{
+
+.box2 h5 {
     font-size: 25px;
 }
-.containerBox{
+
+.containerBox {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 20px;
 }
-.text{
+
+.text {
     color: white;
     width: 700px;
     padding: 30px;
     font-family: Montserrat, sans-serif
 }
-.text h2{
+
+.text h2 {
     font-size: 40px;
 }
 
-@media(max-width:1030px){
-    .containerBox{
+.section3{
+    background-color:#f1ae0e;
+}
+.textBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 50px;
+
+}
+.textBox h2{
+    width: 500px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+}
+
+.button2{
+    background-color: #1a1a1a;
+    border: none;
+    width: 250px;
+    padding: 20px;
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    
+}
+.button2:hover{
+    color: #f1ae0e;
+}
+@media(max-width:930px){
+    .textBox{
         flex-direction: column;
         align-items: center;
     }
-    .box{
-    height: 380px;
-    width: 330px;
-    padding: 20px;
-    color: white;
-    background-image: url(img/sekil2.jpg);
-    background-size: cover;
 }
-.box2{
-    height: 380px;
-    width: 330px;
-    padding: 20px;
-    color: white;
-    background-color: #f1ae0e;
-}
-.text{
-    color: white;
-    width: 400px;
-    padding: 10px;
-    font-family: Montserrat, sans-serif;
-    
-}
-.text h2{
-    font-size: 30px;
-}
-.box ul{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-}
-.box2 ul{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
-}
+@media(max-width:1030px) {
+    .containerBox {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .box {
+        height: 380px;
+        width: 330px;
+        padding: 20px;
+        color: white;
+        background-image: url(img/sekil2.jpg);
+        background-size: cover;
+    }
+
+    .box2 {
+        height: 380px;
+        width: 330px;
+        padding: 20px;
+        color: white;
+        background-color: #f1ae0e;
+    }
+
+    .text {
+        color: white;
+        width: 400px;
+        padding: 10px;
+        font-family: Montserrat, sans-serif;
+
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+    .box ul {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .box2 ul {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
 }
