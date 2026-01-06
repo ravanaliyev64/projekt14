@@ -219,6 +219,7 @@
 @media(max-width:1000px){
     .boxContainer{
     padding: 20px;
+    width: 200px;
 }
     .container{
     padding: 15px;
