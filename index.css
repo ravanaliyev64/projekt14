@@ -216,6 +216,88 @@
     padding: 30px;
     
 }
+.section5{
+    background-color: #1a1a1a;
+}
+.miniBox{
+    height: 280px;
+    width: 280px;
+    background-image: url(img/sekil3.jpg);
+    background-size: cover;
+}
+.miniText{
+    padding: 20px;
+    color: white;
+    height: 280px;
+    width: 280px;
+    font-family: Montserrat, sans-serif;
+}
+.miniText h6{
+    font-size: 20px;
+}
+.miniText p{
+    margin-top: 20px;
+}
+.miniBox2{
+    height: 280px;
+    width: 280px;
+    background-image: url(img/sekil4.jpg);
+    background-size: cover;  
+}
+.miniBox3{
+    height: 280px;
+    width: 280px;
+    background-image: url(img/sekil5.jpg);
+    background-size: cover;  
+}
+.containerAll{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.miniBox4{
+    height: 280px;
+    width: 280px;
+    background-image: url(img/sekil2.jpg);
+    background-size: cover;  
+}
+.miniBox5{
+    height: 280px;
+    width: 280px;
+    background-image: url(img/sekil6.jpg);
+    background-size: cover;  
+}
+.miniBox6{
+    height: 280px;
+    width: 280px;
+    background-image: url(img/sekil7.jpg);
+    background-size: cover;  
+}
+.containerAll2{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+@media(max-width:1250px){
+    .containerAll{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}  
+    .containerAll2{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+} 
+}
 @media(max-width:1000px){
     .boxContainer{
     padding: 20px;
